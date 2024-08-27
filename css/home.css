@@ -1,0 +1,239 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+} 
+header{
+    border: 0.1px solid whitesmoke;
+    background-color: whitesmoke;
+    margin: 0;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+}
+.Logo_font{
+    font-family: "Concert One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#mainlogo{
+    height: 70px;
+    width: 70px;   
+}
+#site{
+    margin-left: 5px;
+}   
+.rightlogos{
+    margin-left: auto;
+}
+.Right {
+    width: 50px;
+    height: 50px;
+    margin: 8px;
+    transition: 0.3s ease;
+}
+.Right:hover{
+    width: 40px;
+    height: 40px;
+}
+.nav_bar{
+    background-color:#E74C3C;   
+    border: 0.1px solid #E74C3C;   
+}
+.nav_bar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 20rem; 
+    list-style: none;  
+    font-size: large;
+}
+li a{
+    text-decoration: none;
+    color: white;
+    transition: 0.3s ease;
+}
+li a:hover{
+    color: #FFFAFA;
+    font-size: larger;
+    font-weight: bold;
+}
+.hero_text{
+    text-align: center;
+}
+.h_des{
+    text-align: center;
+    margin: auto;
+    background-color: #FFFAFA;
+    border-radius: 20px;
+    padding: 30px;   
+}
+.Container{
+    text-align: center;
+}
+.med1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
+    margin: auto;
+    background-color: #FFFAFA;
+    border-radius: 20px; 
+    padding: 30px;
+}
+.con{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin: auto;
+    border-radius: 20px;
+    background-color: #FFFAFA;
+    padding: 30px;  
+}
+.med_img{
+    height: 200px;
+    width:200px;
+    border-radius: 30px;
+    transition: 0.3s ease;
+}
+.med_img:hover{
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+    height: 225px;
+    width:225px;
+}
+button{
+    background-color: red;
+    width: 120px;
+    padding: 10px;
+    margin: auto;
+    border: 0;
+    border-radius: 20px;
+    transition: 0.3s ease;
+}
+button:hover{
+    width: 150px;
+    padding: 10px;
+    height: 50px;
+    border-radius: 30px; 
+    background-color: purple;  
+    font-size: large;
+}
+button a{
+    text-decoration: none;
+    color: white;
+    font-family: "Concert One", sans-serif;
+    font-weight: 400;
+    font-size: larger;
+}
+.dis_img{
+    height: 200px;
+    width:300px;
+    border-radius: 30px;
+}
+.con_3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    margin: auto; 
+}
+.Doctor_img{
+    height: 250px;
+    width: 250px;
+}
+.con_2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin: auto;
+    padding: 30px; 
+}
+.brand_img{
+    height: 150px;
+    width:150px;
+    border-radius: 10px;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.foot{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.foot_1{
+    padding: 10px;
+    text-align: center;
+}
+.foot_2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    text-align: center;
+    font-size: larger;
+}
+.foot_2 a{
+    color: white;
+}
+.foot a{
+    color: white;
+}
+#phone{
+    height: 70px;
+    width: 70px;
+}
+.foot_3{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding: 10px;  
+
+}
+iframe{
+    height: 200px;
+    width: auto;
+}
+@media only screen and (min-width:491px) and (max-width:1024px) {
+    .nav_bar ul{       
+        gap: 10rem;       
+    } 
+    .foot{
+        display: flex;
+        flex-direction: row;
+        gap: 80px;
+        justify-content: center;
+    }
+    
+}
+@media only screen and (max-width:490px) {
+    .nav_bar ul{       
+        gap: 3rem;  
+        justify-content: space-around;      
+    }  
+    .foot{
+        display: flex;
+        flex-direction: row;
+        gap: 80px;
+        justify-content: center;
+    } 
+    .rightlogos{
+        margin-left: auto;
+    }
+    .Right {
+        width: 40px;
+        height: 40px;
+        margin: 0;
+        margin-top: 15px;
+    }
+}

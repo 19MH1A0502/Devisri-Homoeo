@@ -1,0 +1,39 @@
+.devi{
+    text-align: center;
+}
+.points{
+    padding: 20px;
+    background-color: whitesmoke;
+    font-size: larger;
+    border-radius: 80px; 
+}
+.why{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.why_one{
+    width: 300px;
+    background-color: red;
+    padding: 5px;
+    color: white;
+    font-family: "Trirong", serif;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 30px;
+}
+.Free{
+    text-align: center;
+    border: 3px solid black;
+    padding: 20px;
+    border-radius: 30px;
+    font-family: "Anton SC", sans-serif;
+    font-weight: 300;     
+}
+.Add{
+    background-color: whitesmoke;
+    padding: 10px;
+    font-size: x-large;
+    border-radius: 100px;
+}
